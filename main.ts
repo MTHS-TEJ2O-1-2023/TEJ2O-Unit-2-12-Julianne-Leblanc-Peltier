@@ -33,7 +33,7 @@ input.onButtonPressed(Button.A, function () {
   basic.showString('cm')
 
   // if distance is less than 10, turn all neopixels to red
-  if (distanceToObject < 10){
+  if (distanceToObject < 10) {
     neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Red))
     neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Red))
     neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Red))
@@ -53,7 +53,7 @@ input.onButtonPressed(Button.A, function () {
 })
 
 // when button b is pressed, clears screen and turns off neopixels
-input.onButtonPressed(Button.B, function() {
+input.onButtonPressed(Button.B, function () {
   basic.clearScreen()
   neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Black))
   neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Black))
