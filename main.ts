@@ -40,7 +40,7 @@ input.onButtonPressed(Button.A, function () {
     neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Red))
     neopixelStrip.show()
     basic.showIcon(IconNames.Yes)
-  }
+    }
   // else, turn all neopixels to green
   else {
     neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Green))
