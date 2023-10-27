@@ -32,7 +32,7 @@ input.onButtonPressed(Button.A, function () {
   basic.showNumber(distanceToObject)
   basic.showString('cm')
 
-  // if distance is less than 10, turn all neopixels to red
+  // if distance is less than 10, turn all neopixels to red, else turn green
   if (distanceToObject < 10) {
     neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Red))
     neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Red))
